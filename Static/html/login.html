@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--<script src="../login.js"></script>-->
+    <script src="../js_pj/login.js"></script>
+</head>
+<body>
+    <h1>ברוכים הבאים לאתר שלנו:</h1>
+    <hr />
+    <h4>למשתמש קיים:</h4>
+    <label>שם משתמש</label>
+    <input type="email" id="email1" /><br />
+    <label>סיסמה</label>
+    <input type="password" id="password1" /><br /><br />
+    <hr />
+    <button id="new" onclick="newUser()">new user</button>
+    <button onclick="login()">התחברות</button><br />
+    <hr /><br />
+    <div style="display:none" id="newUser">
+        <h4>למשתמש חדש:</h4>
+        <label>שם משתמש</label>
+        <input type="email" id="email2" /><br />
+        <label>סיסמה</label>
+        <input type="password" id="password" /><br />
+        <label>שם</label>
+        <input type="text" id="fullName" /><br />
+<!--         
+        <label>פלאפון </label>
+        <input type="text" id="phone" /><br /> -->
+
+        <button onclick="sign()">הרשם</button><br />
+    </div>
+
+</body>
+</html>
